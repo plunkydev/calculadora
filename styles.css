@@ -64,7 +64,7 @@ body > * {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #58585840;
+    border: 1px solid #58585820;
     color: transparent;
     background: #585858;
     -webkit-background-clip: text;
