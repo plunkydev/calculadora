@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr min(35ch, 100%) 1fr;
+    padding: 5px;
+}
+
+body > * {
+    grid-column: 2;
+}
+
+.main-continer {
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 0.8fr 1fr;
+    height: 500px;
+    border: 1px solid #58585840;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(-45deg, #FFFFFF 0%, #F6F6F6 23%, #cdd5f3 100%);
+    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #F6F6F6 23%, #b9c2e9 100%);
+    background: linear-gradient(135deg, #FFFFFF 0%, #F6F6F6 23%, #bac3e5 100%);
+}
+
+.pantallaStyle {
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 5px;
+    font-size: 34px;
+    color: #58585898;
+    border: 1px solid #58585840;
+    box-shadow: 0 0 10px #58585860;
+}
+
+.centro {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 10px 0 0 0;
+    gap: 3px;
+}
+
+.pie-teclas {
+    display: grid;
+    grid-template-columns: 2.04fr 1fr 1fr;
+    gap: 3.3px;
+    margin-top: 3px;
+}
+.teclas, .teclaIgual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #58585840;
+    color: transparent;
+    background: #585858;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #58585860;
+}
+
+.footer{
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #585858;
+}
