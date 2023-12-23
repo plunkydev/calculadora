@@ -73,6 +73,16 @@ body > * {
     text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
     border-radius: 10px;
     box-shadow: 0 0 10px #58585860;
+    pointer-events: fill;
+}
+
+.teclas, .teclaIgual:hover {
+    cursor: pointer;
+}
+
+.teclas:active, .teclaIgual:active {
+    box-shadow: 0 0 10px #fbfbfb;
+    color: #c3c2c2;
 }
 
 .footer{
