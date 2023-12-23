@@ -1,6 +1,5 @@
 const equacion = [];
 const pantalla = document.querySelector('#pantalla');
-let numeros = [];
 let letras = '';
 function borrarUno() {
     let borrado = equacion.pop();
