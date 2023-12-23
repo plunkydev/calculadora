@@ -49,10 +49,6 @@ if (operador === "+") {
 return resultado;
 }
 
-function invalido() {
-    pantalla.innerText = 'No Valido!';
-}
-
 function total() {
     pantalla.innerText = realizarOperacion(letras);
     letras = pantalla.innerText;
