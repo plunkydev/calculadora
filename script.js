@@ -17,6 +17,10 @@ function borrarTodo() {
     }
 }
 function getEntries(entrie) {
+    let expresionRegular = /\..*?\./;
+    if (expresionRegular.test(letras)) {
+        return pantalla.innerText = 'No Valido!';
+    }
         equacion.push(entrie);
         letras = equacion.join('');
         pantalla.innerText = letras;
@@ -43,6 +47,11 @@ if (operador === "+") {
 return resultado;
 }
 
+function invalido() {
+    pantalla.innerText = 'No Valido!';
+}
+
 function total() {
     pantalla.innerText = realizarOperacion(letras);
+    letras = pantalla.innerText;
 }
