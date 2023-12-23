@@ -21,6 +21,9 @@ function getEntries(entrie) {
     if (expresionRegular.test(letras)) {
         return pantalla.innerText = 'No Valido!';
     }
+    if (equacion.length == 15) {
+        return pantalla.innerText = 'Longitud Invalida!';
+    }
         equacion.push(entrie);
         letras = equacion.join('');
         pantalla.innerText = letras;
