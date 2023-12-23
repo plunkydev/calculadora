@@ -76,8 +76,9 @@ body > * {
     pointer-events: fill;
 }
 
-.teclas, .teclaIgual:hover {
+.teclas:hover, .teclaIgual:hover {
     cursor: pointer;
+    text-shadow: 0 0 10px #fbfbfb;
 }
 
 .teclas:active, .teclaIgual:active {
@@ -91,4 +92,14 @@ body > * {
     justify-content: center;
     align-items: center;
     color: #585858;
+}
+
+.footer > a {
+    color: #585858;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 0 0 10px #fbfbfb;
+    color: #ffffff;
 }
